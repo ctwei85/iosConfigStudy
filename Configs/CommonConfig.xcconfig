@@ -1,0 +1,12 @@
+//
+//  Config.xcconfig
+//  configDemo
+//
+//  Created by lianchuang-hw on 2019/5/5.
+//  Copyright © 2019 hw. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+BUILD_VERSION = 1.0.0

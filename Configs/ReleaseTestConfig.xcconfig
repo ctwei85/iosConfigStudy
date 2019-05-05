@@ -1,0 +1,20 @@
+//
+//  Config.xcconfig
+//  configDemo
+//
+//  Created by lianchuang-hw on 2019/5/5.
+//  Copyright © 2019 hw. All rights reserved.
+//
+
+// Configuration settings file format documentation can be found at:
+// https://help.apple.com/xcode/#/dev745c5c974
+
+//导入公共config
+
+#include "CommonConfig.xcconfig"
+
+//导入pods对应的config
+
+#include "Pods/Target Support Files/Pods-configDemo/Pods-configDemo.releasetest.xcconfig"
+APP_DISPLAY_NAME = 正式服
+CONFIG_FLAG = RELEASE_TEST
